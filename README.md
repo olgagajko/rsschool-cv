@@ -1,2 +1,2 @@
 # rsschool-cv
-**create new file**
+https://olgagajko.github.io/rsschool-cv/cv
