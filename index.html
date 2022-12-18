@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class = "header">
@@ -14,6 +16,9 @@
               <a href="#contacts" class="menu-link">Contacts</a>
             </li>
             <li class="menu-item">
+              <a href="#summary" class="menu-link">Summary</a>
+            </li>
+            <li class="menu-item">
               <a href="#skills" class="menu-link">Skills</a>
             </li>
             <li class="menu-item">
@@ -21,9 +26,6 @@
             </li>
             <li class="menu-item">
               <a href="#education" class="menu-link">Education</a>
-            </li>
-            <li class="menu-item">
-              <a href="#summary" class="menu-link">Summary</a>
             </li>
             <li class="menu-item">
               <a href="#code" class="menu-link">Code</a>
@@ -37,17 +39,24 @@
     </header>
     <main class="main">
       <div class="container main-container">
-        <section class="section section-profile">
+        <section class="section-profile">
+            <img src="./img/photo.jpg" alt="Фотография" class="photo">
         </section>
-        <section class="section section-profile">
+        <section  class="section-profile">
+            <h1>Olga Gaiko</h1>
+        </section>
         </section>
         <section class="section" id="contacts">
           <h2>Contacts</h2>
-          <ul>
-            <li>Email: <a href="mailto:olgagajko@gmail.com">olgagajko@gmail.com</a></li>
-            <li>Github: <a href="https://github.com/olgagajko">olgagajko</a></li>
-            <li>Discord: <a href="https://discordapp.com/users/1048937554759667733/">olgagko</a></li>
+          <ul class="contact-list">
+            <li>Email: <a class="contact-link" href="mailto:olgagajko@gmail.com">olgagajko@gmail.com</a></li>
+            <li>Github: <a class="contact-link" href="https://github.com/olgagajko">olgagajko</a></li>
+            <li>Discord: <a class="contact-link" href="https://discordapp.com/users/1048937554759667733/">olgagko</a></li>
           </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2>Summary</h2>
+          <p>I I'm interested in web development so I learn JavaScript, CSS and HTML. I got little expirence at programming but I practice.</p>
         </section>
         <section class="section" id="skills">
           <h2>Skills</h2>
@@ -69,18 +78,23 @@
           <p>Saint Petersburg State University</p>
           <p>Faculty of Political Science</p>
         </section>
-        <section class="section" id="summary">
-          <h2>Summary</h2>
-        </section>
+
         <section class="section" id="code">
           <h2>Code</h2>
+          <pre>
+            <code>
+          function century(year) {
+            let century = Math.ceil(year/100);
+            return century;
+            }
+            </code>
+          </pre>
         </section>
         <section class="section" id="projects">
           <h2>Projects</h2>
           <ul>
-            <li>Email</li>
-            <li>Github</li>
-            <li>Discord</li>
+            <li><a href="https://github.com/olgagajko/rsschool-cv">CV</a></li>
+
           </ul>
         </section>
         <section class="section" id="languages">
@@ -93,12 +107,11 @@
       </div>
     </main>
     <footer class = "footer">
-      <div class="container">
-        <ul class="menu-list">
-          <li class="menu-item">Email</li>
-          <li class="menu-item">Github</li>
-          <li class="menu-item">Discord</li>
-        </ul>
+      <div class="container footer-container">
+          <div class="footer-item">
+            <a href="https://rs.school/"><img  class="logo" src="./svg/logo.svg" alt="Логотип"></a>
+          </div>
+          <div class="footer-item"><a href="https://github.com/olgagajko" class="footer-link">olgagajko </a><span class="year">2022</span></div>
       </div>
     </footer>
   </body>
