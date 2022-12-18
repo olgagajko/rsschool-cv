@@ -23,3 +23,20 @@ body {
     width: 50%;
     min-height: 200px;
   }
+.main {
+    background-color: #FFFFFF;
+}
+.header {
+    background-color: #33658A;    
+}
+.footer {
+    background-color: #33658A;    
+}
+.menu-link {
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+h2 {
+    color: #33658A;
+    text-transform: uppercase;    
+}
